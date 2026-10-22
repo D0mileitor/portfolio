@@ -2,7 +2,7 @@
 # No painel do Render: New > Blueprint > selecione este repositório.
 services:
   - type: web
-    name: luis-otavio-portfolio
+    name: luisotavio
     runtime: static
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
