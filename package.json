@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-luis-otavio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Portfólio de Luis Otávio Monteiro Garcia, desenvolvedor Python/Django focado em integração de IA (LLMs e RAG).",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "5.3.0",
+    "@fontsource-variable/inter": "5.3.0",
+    "@fontsource-variable/jetbrains-mono": "5.3.0",
+    "lucide-react": "1.60.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@vitejs/plugin-react": "5.2.0",
+    "prettier": "3.9.10",
+    "tailwindcss": "4.3.3",
+    "vite": "7.3.7"
+  }
+}

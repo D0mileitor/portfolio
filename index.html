@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Luis Otávio · Desenvolvedor Full Stack Python/Django</title>
+    <meta
+      name="description"
+      content="Portfólio de Luis Otávio Monteiro Garcia, desenvolvedor Python/Django em Cuiabá-MT focado em integração de IA em empresas: LLMs (OpenAI e Claude), RAG e deploy em produção."
+    />
+    <meta name="author" content="Luis Otávio Monteiro Garcia" />
+    <meta name="theme-color" content="#0b111c" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#faf7f2" media="(prefers-color-scheme: light)" />
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:title" content="Luis Otávio · Desenvolvedor Full Stack Python/Django" />
+    <meta
+      property="og:description"
+      content="Integração de IA em empresas com Python/Django: LLMs (OpenAI e Claude), RAG e deploy em produção."
+    />
+    <meta property="og:image" content="%VITE_SITE_URL%/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preload" as="image" href="/images/luis.webp" type="image/webp" />
+
+    <!-- Aplica o tema salvo (ou o do sistema) antes da pintura, para não piscar. -->
+    <script>
+      try {
+        var t = localStorage.getItem('theme')
+        if (t !== 'light' && t !== 'dark') {
+          t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+        }
+        document.documentElement.dataset.theme = t
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <noscript>Este site precisa de JavaScript habilitado.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

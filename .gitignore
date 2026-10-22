@@ -1,0 +1,21 @@
+# Dependências e build
+node_modules
+dist
+
+# Logs e lixo de sistema
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Variáveis locais (o .env versionado só tem a URL pública do site)
+.env.local
+.env.*.local
+
+# Arquivos originais (currículos e foto) guardados só nesta máquina;
+# as versões publicadas ficam em public/cv/ e public/images/
+_originais/

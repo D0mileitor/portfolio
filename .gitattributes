@@ -1,0 +1,7 @@
+# Normaliza quebras de linha para LF no repositório (o projeto é editado no Windows e buildado no Linux do Render)
+* text=auto eol=lf
+
+*.pdf binary
+*.png binary
+*.jpg binary
+*.webp binary
